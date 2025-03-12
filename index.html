@@ -30,7 +30,7 @@
 
             <div class="input-box">
                 <label for="altura">Altura*</label>
-                <input class="imcinput" id="altura" placeholder="Altura em metros (ex: 1.80)" type="text" maxlength="4" required>
+                <input class="imcinput" id="altura" placeholder="Altura (ex: 1.80)" type="text" maxlength="4" required>
             </div>
             <div class="input-box">
                 <label for="peso">Peso*</label>
@@ -38,27 +38,28 @@
             </div>
 
         </form>
-        <input class="btn" type="submit" value="Calcular meu IMC">
-        <h3 id="selecionado">Esté texto diz que você é homem!</h3>
+        <input class="btn" type="submit" value="Calcular meu IMC"> 
     </section>
 
     <section class="container3">
         <h3>Seu Índice de Massa Corporal é:</h3>
-        <label><p class="valor">18,5 ou menos</p>
-            <p class="nivel">Abaixo do normal</p>    
+        <label><p class="valor">Resultado do Cálculo</p>
+            <p class="nivel">Grau de IMC</p>    
             <p class="descricao">       
-            Procure um médico! <br>
-            Algumas pessoas têm um 
-            baixo peso por características do seu organismo e tudo bem. 
-            Outras podem estar enfrentando problemas, como a desnutrição. 
-            É preciso saber qual é o caso.</p></label>
+            Descrição <br>
+            Aqui estão as características de cada um dos resultados
+            do cálculo Nacional de Índice de Massa Corporal
+        </p></label>
     </section>
 
-    <script src="./assets/js/script.js"></script>
+    <section class="container4">
+        <h3>Medida de Risco da Circunferência Abdominal:</h3>
+        <p class="medida-risco"></p> <!-- Texto será preenchido dinamicamente -->
+    </section>
+
+    <script src="./assets/js/script.js"></script> 
 </body>
-<footer>
-    <div class="alink">
-    Desenvolvido por <a href="https://github.com/speedinfected">Speed</a> 
-    </div>
+<footer>       
+    Desenvolvido por <a href="https://github.com/speedinfected">Speed</a>
 </footer>
 </html>
