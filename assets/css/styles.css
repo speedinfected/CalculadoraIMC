@@ -13,6 +13,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .grupo {
@@ -70,4 +71,51 @@ h1{
 
 .texto{
     font-weight: 550;
+}
+
+.alink{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 150px;
+}
+a{
+    color: white;
+}
+
+.container3 {
+    background-color: white;
+    width: 60%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.valor{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.nivel, .descricao{
+    
+    font-style: italic;
+    flex: auto;
+    text-align: center;
+}
+.nivel{
+    font-weight: bold;
+}
+
+.container3 {
+    background-color: white;
+    width: 60%;
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 15px;
 }
