@@ -17,7 +17,7 @@ body {
 
 .container {
     background-color: white;
-    width: 60%;
+    width: 90%;
     max-width: 500px;
     margin: 5px auto;
     padding: 20px;
@@ -117,7 +117,7 @@ a {
 
 .container3 {
     background-color: white;
-    width: 60%;
+    width: 90%;
     max-width: 500px;
     margin: 0px auto;
     padding: 20px;
@@ -167,8 +167,8 @@ a {
 }
 
 .container4.visible {
-    opacity: 1; /* Torna visível */
-    transform: translateY(0); /* Remove o deslocamento */
+    opacity: 1; 
+    transform: translateY(0); 
 }
 
 .medida-risco {
