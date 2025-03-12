@@ -105,6 +105,7 @@ function calcularNivelIMC(imc, genero) {
 const container4 = document.querySelector(".container4");
 const medidaRisco = container4.querySelector(".medida-risco");
 
+
 // Função para atualizar a medida de risco com base no gênero
 function atualizarMedidaRisco(genero) {
     if (genero === "homem") {
@@ -117,8 +118,8 @@ function atualizarMedidaRisco(genero) {
 // Atualiza a medida de risco quando o gênero é alterado
 radios.forEach(radio => {
     radio.addEventListener("change", () => {
-        generoSelecionado = radio.id; // Armazena o gênero selecionado
-        atualizarMedidaRisco(generoSelecionado); // Atualiza a medida de risco
+        generoSelecionado = radio.id; 
+        atualizarMedidaRisco(generoSelecionado); 
     });
 });
 
