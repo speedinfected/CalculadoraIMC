@@ -6,23 +6,23 @@ const pesoInput = document.getElementById("peso");
 const btnCalcular = document.querySelector(".btn");
 
 // Variável para armazenar o gênero selecionado
-let generoSelecionado = "homem"; // Valor padrão
+let generoSelecionado = "homem"; 
 
 // Atualiza o gênero selecionado
 radios.forEach(radio => {
     radio.addEventListener("change", () => {
-        generoSelecionado = radio.id; // Armazena o gênero selecionado
+        generoSelecionado = radio.id; 
     });
 });
 
 // Função para formatar a altura (ex: 1.80)
 alturaInput.addEventListener("input", function () {
-    let valor = alturaInput.value.replace(/[^0-9]/g, ""); // Remove tudo que não for número
+    let valor = alturaInput.value.replace(/[^0-9]/g, "");
     if (valor.length > 3) {
-        valor = valor.slice(0, 3); // Limita a 3 caracteres
+        valor = valor.slice(0, 3); 
     }
     if (valor.length > 1) {
-        valor = valor.slice(0, 1) + "." + valor.slice(1, 3); // Adiciona o ponto decimal
+        valor = valor.slice(0, 1) + "." + valor.slice(1, 3);
     }
 
     alturaInput.value = valor;
@@ -30,9 +30,9 @@ alturaInput.addEventListener("input", function () {
 
 // Função para validar o peso (apenas números)
 pesoInput.addEventListener("input", function () {
-    let valor = pesoInput.value.replace(/[^0-9]/g, ""); // Remove tudo que não for número
+    let valor = pesoInput.value.replace(/[^0-9]/g, "");
     if (valor.length > 3) {
-        valor = valor.slice(0, 3); // Limita a 3 caracteres
+        valor = valor.slice(0, 3); 
     }
 
     pesoInput.value = valor;
