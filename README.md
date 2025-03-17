@@ -42,13 +42,13 @@ Você pode acessar o projeto diretamente pelo Vercel:
 <div align="center"><img src="https://github.com/speedinfected/CalculadoraIMC/blob/main/assets/img/2.png"></div> 
 
 ## Estrutura do Projeto
-calculadora-imc/
-├── index.html
-├── assets/
-│ ├── css/
-│ │ └── styles.css
-│ └── js/
-│ └── script.js
+calculadora-imc/<br>
+├── index.html<br>
+├── assets/<br>
+│ ├── css/<br>
+│ │ └── styles.css<br>
+│ └── js/<br>
+│ └── script.js<br>
 └── README.md
 
 
